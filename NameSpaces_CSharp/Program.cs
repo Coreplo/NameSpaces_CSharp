@@ -1,8 +1,10 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+//using System;
+
+
+// Namespace
+// Namespaces declare the scope that contains a set of related objects  
+// You can define and use your own name spaces in a program
+// "using" states that the program is using a specific namespace
 
 namespace NameSpaces_CSharp
 {
@@ -10,12 +12,13 @@ namespace NameSpaces_CSharp
     {
         static void Main(string[] args)
         {
-            // The code provided will print ‘Hello World’ to the console.
-            // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
 
-            // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
+            // if namespace is not defined with the "using" keyword
+            // it can still be accessed explicitely
+
+            System.Console.WriteLine("Hello World!");
+            System.Console.ReadKey();
+
         }
     }
 }
